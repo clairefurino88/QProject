@@ -1,0 +1,42 @@
+{
+    "charts": [
+        {
+            "name": "line",
+            "id": "1",
+            "dashboardName": "dashboard1",
+            "chartType": "line",
+            "sqlQuery": "select * from wallabysightings",
+            "xAxisField": "date",
+            "yAxisField": "sightings by belly girth",
+            "dateField": {
+                "table": "wallabysightings",
+                "field": "estimatedbellygirth"
+            }
+        },
+        {
+            "name": "bar",
+            "id": "123",
+            "dashboardName": "dashboard1",
+            "chartType": "bar",
+            "sqlQuery": "select * from wallabysightings where location='Melbourne' ",
+            "xAxisField": "date",
+            "yAxisField": "sightings by belly girth",
+            "dateField": {
+                "table": "wallabysightings",
+                "field": "estimatedbellygirth"
+            }
+        },
+        {
+            "name": "line2",
+            "id": "2",
+            "dashboardName": "dashboard2",
+            "chartType": "line",
+            "sqlQuery": "select * from wallabysightings",
+            "xAxisField": "date",
+            "yAxisField": "number of sightings",
+            "dateField": {
+                "table": "wallabysightings",
+                "field": "sightingsnumber"
+            }
+        }]
+    }

@@ -1,0 +1,20 @@
+{
+    "dashboards": [
+        {
+            "name": "dashboard1",
+            "id": "1",
+            "dateFilter": {
+                "name": "dashboard1_current",
+                "initialDateRange": "CURRENT_MONTH"
+            }
+        },
+        {
+            "name": "dashboard2",
+            "id": "2",
+            "dateFilter": {
+                "name": "dashboard2_90",
+                "initialDateRange": "LAST_90_DAYS"
+            }
+        }
+    ]
+}
